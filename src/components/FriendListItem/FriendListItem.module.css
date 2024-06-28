@@ -1,0 +1,22 @@
+.online{
+    color: green;
+}
+
+.offline{
+    color: red;
+}
+
+.cardContainer{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.friendName{
+    font-weight: 600;
+    text-align: center;
+}
+
+.friendStatus{
+    font-weight: 500;
+}

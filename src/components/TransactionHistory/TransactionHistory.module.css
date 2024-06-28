@@ -1,0 +1,31 @@
+.table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: 18px;
+    text-align: center;
+
+  }
+  
+  .table thead tr {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .table th, .table td {
+    border: 1px solid black;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: lightgrey;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+  }
+
+
+  tr td:nth-child(1){
+    text-transform: capitalize;
+  }

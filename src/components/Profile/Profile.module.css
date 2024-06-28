@@ -1,0 +1,72 @@
+.profileContainer{
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 270px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.profileInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    p{
+        color: gray;
+    }
+
+}
+
+.profileImg{
+    background-color: black;
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.profileName{
+    font-weight: 700;
+    color: black!important;
+}
+
+.profileStatsList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: lightgrey;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.profileStatsListItem{
+    flex: 1;
+    border: 1.5px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.profileStatsListItem:nth-child(1){
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-bottom-left-radius: 6px;
+}
+.profileStatsListItem:nth-child(2){
+
+    border-bottom: none;
+}
+.profileStatsListItem:nth-child(3){
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
